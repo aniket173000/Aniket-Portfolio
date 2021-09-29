@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Aniket's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A Passionate Competitive Programmer and a Full-Stack Developer who likes to learn new skills and aspire to become a Software Developer. ",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Aniket Shrivastav Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,20 +19,19 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
+  title: "Aniket Shrivastav",
   logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A Passionate Competitive Programmer and a Full-Stack Developer who likes to learn new skills and aspire to become a Software Developer.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/1KQiRfp4qBMQJOMMrtUuxcNG-ytSw3opA/view?usp=sharing",
+  portfolio_repository: "https://github.com/aniket173000",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+  // github: "https://github.com/aniket173000",
+  // linkedin: "https://www.linkedin.com/in/aniketshrivastav/",
   // gmail: "ashutoshhathidara98@gmail.com",
   // gitlab: "https://gitlab.com/ashutoshhathidara98",
   // facebook: "https://www.facebook.com/laymanbrother.19/",
@@ -41,43 +40,33 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/aniket173000",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    link: "https://www.linkedin.com/in/aniketshrivastav/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:aniketshrivastav02@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
+
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/profile.php?id=100008316495433",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/aniket173000/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -86,12 +75,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Competitive Programming",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Solved almost 600+ Problems based on Data Structures and Algorithms.",
+        "⚡ Regular Practice on Codeforces, Codechef and Leetcode.",
+        "⚡ Currently I am rated as Specialist at Codeforces and 4 ⭐ at Codechef.",
       ],
       softwareSkills: [
         {
@@ -130,9 +119,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building resposive website front end using React.",
+        "⚡ Developing useful Web Application using MERN stack.",
+        "⚡ Creating application backend in Node, Express & Socket.",
       ],
       softwareSkills: [
         {
@@ -149,13 +138,7 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
+
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -209,13 +192,12 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Technical Content Writing",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Researched and Published aroud 10+ articles on GeeksforGeeks.",
+        "⚡ The articles were based on Data Structures and Algorithms.",
+        "⚡ Improved some articles based on Problem Solving and DSA.",
       ],
       softwareSkills: [
         {
@@ -276,45 +258,6 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
   ],
 };
 
@@ -327,7 +270,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/aniket173000",
     },
     {
       siteName: "Codechef",
@@ -335,7 +278,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/aniket173000",
     },
     {
       siteName: "Codeforces",
@@ -343,7 +286,7 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "http://codeforces.com/profile/aniket173000",
     },
     {
       siteName: "Hackerearth",
@@ -351,15 +294,23 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@aniketshrivastav02",
     },
     {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
+      siteName: "Leetcode",
+      iconifyClassname: "simple-icons:leetcode",
       style: {
-        color: "#20BEFF",
+        color: "#FFA500",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://leetcode.com/aniket173000/",
+    },
+    {
+      siteName: "GFG",
+      iconifyClassname: "simple-icons:geeksforgeeks",
+      style: {
+        color: "#008000",
+      },
+      profileLink: "https://auth.geeksforgeeks.org/user/aniket173000/practice/",
     },
   ],
 };
@@ -367,17 +318,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "Indian Institute of Information Technology Nagpur",
+      subtitle: "B.Tech. in Computer Science and Engineering",
       logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      alt_name: "IIIT Nagpur",
+      duration: "2019 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied basic software engineering subjects like Data Structures and Algorithms, Compter Networks, OOPS, DBMS and Operating System.",
+        "⚡ Along with this I have learnt Application Programming, Theory of Comptations, Software Architecture and Discrete Mathematics.",
+        "⚡ I secured Rank 1 in IOT_WAVE, Rank 7 in ACM-ICPC and Rank 1 in Fall For Code 3.0.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "http://iiitn.ac.in",
     },
   ],
 };
@@ -385,112 +336,85 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
+      title: "ChatBot with Rasa and Python",
+      subtitle: "- Coursera",
       logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://drive.google.com/file/d/1mTPLJW0NuFUAGgqbmkjSNZ_i6mo4DpuK/view?usp=sharing",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
+      title: "Web Development",
+      subtitle: "- TechTomatoes",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://drive.google.com/file/d/1wYXxsIO9a5miWJtKYyBY5dbEi-tyayER/view?usp=sharing",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Competitive Programming",
+      subtitle: "TechGIG",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+        "https://drive.google.com/file/d/1iE1PjidAB3Esvtwkpqf4uxjdJZFCv5GF/view?usp=sharing",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "Google Kickstart 2021",
+      subtitle: "- Coding",
+      logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
+        "https://drive.google.com/file/d/1yVnUBYO3fWkRdyACa0WZ3fPX8AENekUB/view?usp=sharing",
+      alt_name: "Kickstart",
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "Google Codejam 2021",
+      subtitle: "- Coding",
+      logo_path: "google_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
+        "https://drive.google.com/file/d/17VuY8nkJyu6uUXWsJajCwRtwGjUxywse/view?usp=sharing",
+      alt_name: "Codejam",
       color_code: "#D83B0199",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      title: "Google Hashcode 2020",
+      subtitle: "- Hashcode",
+      logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
+        "https://drive.google.com/file/d/15uxfNoqxwY_DnB2c8Pj0ANjB7YCKvL3W/view?usp=sharing",
+      alt_name: "google",
       color_code: "#1F70C199",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Uber Hacktag",
+      subtitle: "- Coding",
+      logo_path: "uber.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
+        "https://drive.google.com/file/d/16I2uZav9v1n8QXnTqyDVdLuE1ucoQoji/view?usp=sharing",
+      alt_name: "Uber",
       color_code: "#0C9D5899",
     },
     {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Publicis Sapient",
+      subtitle: "- DSA",
+      logo_path: "sapient.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
+      alt_name: "sapient",
       color_code: "#00000099",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
+      title: "IOT WAVE",
+      subtitle: "- Electronic Models",
       logo_path: "coursera_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
+        "https://drive.google.com/file/d/1iRdHuUr8NjUAy3D5Q6Om2_yTJ3j7VTa6/view?usp=drivesdk",
+      alt_name: "IOT",
       color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
     },
   ],
 };
