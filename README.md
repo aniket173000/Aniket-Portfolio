@@ -7,4 +7,4 @@
 
 
 <h3 align="center"> The Portfolio is made using HTML, CSS and JavaScript. For Frontend design I have used React which gives a perfect Interactive UI.</h3>
-<h4 align="center"> The Portfolio shows my skills , my Interests and my Project Till date So Please Have a look and suggest if something can be Improved.</h4>
+<h4 align="center"> The Portfolio shows my skills , my Interests and my Projects till date So Please Have a look and suggest if something can be Improved.</h4>
